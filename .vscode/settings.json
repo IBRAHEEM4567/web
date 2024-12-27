@@ -1,0 +1,12 @@
+{
+    "window.commandCenter": false,
+    "auto-close-tag.fullMode": false,
+    "window.closeWhenEmpty": false,
+    "window.autoDetectColorScheme": false,
+    "explorer.fileNesting.enabled": true,
+    "workbench.commandPalette.preserveInput": false,
+    "workbench.editSessions.autoResume": "off",
+    "workbench.layoutControl.type": "both",
+    "workbench.list.horizontalScrolling": false,
+    "workbench.list.smoothScrolling": false
+}
