@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.Navbar{
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    padding: 2px;
+}
+.Navbar a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 5px 5px;
+    border-radius: 15px;
+    transition:background-color ease 0.1s ease 0.1s ;
+}
+.Navbar a:hover{
+    background-color: #ffd700;
+    color: #000;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
