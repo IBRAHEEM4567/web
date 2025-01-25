@@ -20,7 +20,7 @@
 }
 
 .Navbar a:hover {
-    background-color: #ffd700;
+    background-color: #fff;
     color: #000;
 }
 
@@ -34,6 +34,8 @@ h1 {
     width: 160px;
     height: 190px;
     border-radius: 70px;
+    padding: 1px;
+    margin: 1px;
 }
 
 h1 {
@@ -44,14 +46,28 @@ h1 {
 }
 
 p {
-    border: 2px solid black;
-    background-color: #f00;
-    width: 300px;
-    height: 200px;
-    border-radius: 17px;
-    padding: 8px;
-    margin: 20px;
     display: flex;
     justify-content: center;
-    align-items: baseline;
+    text-align: center;
+    border: 3px solid black;
+    background-color: #f00;
+    color: #fff;
+    width: 250px;
+    height: 150px;
+    border-radius: 15px;
+    padding: 8px;
+    margin: 10px;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border: 3px solid black;
+    background-color: #ffc0cb;
+    width: 250px;
+    height: 150px;
+    border-radius: 15px;
+    padding: 8px;
+    margin: 10px;
 }
