@@ -45,7 +45,7 @@ h1 {
     font-weight: bold;
 }
 
-p {
+.text1 {
     display: flex;
     justify-content: center;
     text-align: center;
@@ -59,15 +59,37 @@ p {
     margin: 10px;
 }
 
-.text {
+.text2{
     display: flex;
     justify-content: center;
     text-align: center;
     border: 3px solid black;
-    background-color: #ffc0cb;
+    background-color: #f00;
+    color: #fff;
     width: 250px;
     height: 150px;
     border-radius: 15px;
     padding: 8px;
     margin: 10px;
+}
+
+.text3{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border: 3px solid black;
+    background-color: #f00;
+    color: #fff;
+    width: 250px;
+    height: 150px;
+    border-radius: 15px;
+    padding: 8px;
+    margin: 10px;
+
+}
+.box{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+   
 }
