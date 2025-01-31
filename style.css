@@ -7,7 +7,7 @@
     display: flex;
     justify-content: center;
     background-color: #333;
-    padding: 2px;
+    padding: 5px;
 }
 
 .Navbar a {
@@ -92,5 +92,15 @@ h1 {
     display: flex;
     justify-content: center;
     text-align: center;
-
+    
+}
+.logo {
+    position: fixed;
+    top: 6px;
+    right: 10px;
+    width: 28px;
+    height: auto;
+    z-index: 1000;
+    border-radius: 50px; 
+    /* Ensures it stays above other elements */
 }
