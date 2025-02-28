@@ -7,7 +7,7 @@
     display: flex;
     justify-content: center;
     background-color: #333;
-    padding: 5px;
+    padding: 10px;
 }
 
 .Navbar a {
@@ -17,6 +17,8 @@
     padding: 5px 5px;
     border-radius: 15px;
     transition: background-color ease 0.1s ease 0.1s;
+    font-size: 15px;
+    font-family: monospace;
 }
 
 .Navbar a:hover {
@@ -25,9 +27,12 @@
 }
 
 h1 {
+
+    
     display: flex;
     justify-content: center;
     text-align: center;
+    font-family: monospace;
 }
 
 .box {
@@ -96,9 +101,9 @@ h1 {
 }
 .logo {
     position: fixed;
-    top: 6px;
+    top: 7px;
     right: 10px;
-    width: 28px;
+    width: 35px;
     height: auto;
     z-index: 1000;
     border-radius: 50px; 
